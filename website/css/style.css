@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#app {
+    display: grid;
+    /* grid-auto-rows: minmax(150px, auto); */
+    /* grid-template-columns: 100%; */
+    grid-template-rows: 73px 130px 300px auto;
+    height:100vh;
+    background: #111;
+    justify-content: center;
+    /* grid-gap: 1em; */
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.holder {
+    
+}
+.entry,
+.headline {
+    background: rgb(30 24 27);
+    background: -webkit-linear-gradient(160deg,#111, #312228, #111);
+    background: -moz-linear-gradient(160deg,#111, #312228, #111);
+    background: -o-linear-gradient(160deg,#111, #312228, #111);
+    background: -ms-linear-gradient(160deg,#111, #312228, #111);
+    background: linear-gradient(160deg,#111, #312228, #111);
+}
+.entry {
+    padding: 40px 40px;
+    color: #FFF;
+    line-height: 1.8em;
+    overflow: hidden;
+}
+#entryHolder {
+
+}
+#date {
+
+}
+#temp {
+
+}
+#content {
+
+}
+.headline {
+    padding: 20px 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 1.2em;
+    border-bottom: 3px solid #EEE;
+    text-align: center;
+}
+.zip,
+.feel {
+    background: #FFF;
+    padding: 20px 40px;
+    color: #000;
+}
+.title {
+    margin: auto;
+    margin-bottom: 15px;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+    text-align: center;
+    padding: 5px 15px;
+    width: 170px;
+}
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+    display: block;
+    font-size: 27px;
+    color: darkred;
+    margin-bottom: 15px;
+}
+input {
+    display: block;
+    height: auto;
+    width: 300px;
+    background: #fff;
+    color: #111;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid #999;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+button {
+    width: 353px;
+    height: 50px;
+    background: #460046;
+    color: #FFF;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: 3px solid #900090;
+    /* box-shadow: 0px 0px 50px #754675; */
+    display: block;
+    cursor: pointer;
+    margin: 10px 0px;
+    border-radius: 10px;
+    line-height: 1em;
+}
+button:hover {
+    background: #700070;
+    border: 3px solid #9e0b9e;
+    box-shadow: 0px 0px 15px #8a2f8a;
+}
+h1 {
+    font-size: 36px;
+}
+textarea {
+    background: #FFF;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 20px;
+    resize: none;
+    width: 311px;
+    height: 110px;
+    border-radius: 10px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #9999; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #9999; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #9999;  
+    font-family: 'Oswald', sans-serif;
+
+} 
